@@ -732,6 +732,8 @@ body[data-module=standard] .hero-equation,body[data-module=eqe] .hero-equation,b
 .masthead .brand{min-width:0}
 .masthead .brand-symbol{flex-shrink:0}
 .brand-copy{min-width:0}
+.brand-logo{display:block;flex-shrink:0;width:40px;height:40px;object-fit:contain}
+@media(max-width:700px){.brand-logo{width:32px;height:32px}}
 html[lang=en] .masthead .brand-caption{font-size:9px;line-height:1.5;letter-spacing:.2px;max-width:420px;white-space:normal;text-wrap:balance}
 .masthead .lab-status{flex-shrink:0}
 @media(max-width:700px){.masthead{min-height:80px;padding-block:12px;gap:12px}.masthead .brand{flex:1;font-size:22px}.masthead .lab-status{font-size:8px;gap:6px;align-self:flex-start;margin-top:5px;white-space:nowrap}html[lang=en] .masthead .brand-caption{font-size:8px;line-height:1.5;letter-spacing:.1px;max-width:290px}}
@@ -749,7 +751,7 @@ html[lang=en] .method-pager>.subtle{max-width:60%}
 <body>
   <a class="skip-link" href="#main">Skip to experiment</a>
   <header class="masthead page-width">
-    <a class="brand" href="#page-title" aria-label="AICON — AI-Native Connectivity, Optimization and Networking Lab"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand-copy">AICON<span class="brand-caption">AI-Native Connectivity, Optimization and Networking Lab</span></span></a>
+    <a class="brand" href="#page-title" aria-label="AICON — AI-Native Connectivity, Optimization and Networking Lab"><img class="brand-logo" src="../../logo.png" alt="" width="40" height="40"><span class="brand-copy">AICON<span class="brand-caption">AI-Native Connectivity, Optimization and Networking Lab</span></span></a>
     <div class="lab-status"><span class="live-dot" aria-hidden="true"></span>Local simulation<span class="status-divider"></span><span>Works offline · Live numerical simulation</span></div>
   </header>
 
